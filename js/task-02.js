@@ -12,7 +12,7 @@ const ingridientsList = [];
 
 ingredients.forEach(ingredient => {
   const liEl = document.createElement('li');
-  liEl.className = 'liEl';
+  liEl.className = 'item';
   liEl.textContent = ingredient;
   ingridientsList.push(liEl);
 });
